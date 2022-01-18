@@ -14,9 +14,18 @@ Answering `No` will return to the compose window.
 
 Answering `Yes` will release the message.
 
-## Installing in Outlook
+## Installing
 
-//TODO once the artifact is published on Releases.
+1. Go to [Releases](https://github.com/michaelsanford/Outlook-Walled-Garden/releases) and choose the `Latest`.
+2. Download the Zip and validate the checksum.
+3. Run `setup.exe`
+
+## Uninstalling
+
+1. Press Start
+2. Type "Add or remove programs"
+3. Search for "Walled Garden for Outlook"
+4. Choose it and select `Uninstall`.
 
 ## Contributing
 
