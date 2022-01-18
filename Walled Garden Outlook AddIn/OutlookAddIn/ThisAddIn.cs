@@ -26,7 +26,7 @@ namespace OutlookAddIn
 
             foreach (Recipient recipient in this.mailItem.Recipients)
             {
-                if (!recipient.Address.EndsWith(Domain))
+                if (recipient.Address.Contains("@") && !recipient.Address.EndsWith(Domain))
                 {
                     Outsiders += "- " + recipient.Address + "\r\n";
                 }
