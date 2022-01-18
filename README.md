@@ -19,6 +19,7 @@ Answering `Yes` will release the message.
 1. Go to [Releases](https://github.com/michaelsanford/Outlook-Walled-Garden/releases) and choose the `Latest`.
 2. Download the Zip and validate the checksum.
 3. Run `setup.exe`
+4. Restart Outlook to load the Add-in
 
 ## Uninstalling
 
