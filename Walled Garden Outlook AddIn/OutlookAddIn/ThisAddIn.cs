@@ -40,7 +40,6 @@ namespace OutlookAddIn
             if (Outsiders != "")
             {
                 String Message = String.Format("Your recipient list contains people outside of your organization ({0}) : \r\n\r\n{1}\r\n\r\nDo you still want to send it?", Domain, Outsiders);
-                //Message = "Your recipient list contains recipients outside the organization {0}: \r\n" + Outsiders + "\r\n\r\n Do you still want to send it?";
                 DialogResult canContinue = MessageBox.Show(Message, "Walled Garden", MessageBoxButtons.YesNo, MessageBoxIcon.Hand);
                 Cancel = canContinue == DialogResult.Yes ? false : true;
             }

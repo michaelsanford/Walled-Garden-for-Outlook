@@ -1,4 +1,4 @@
-# Outlook-Walled-Garden
+# Walled-Garden Add-in for Outlook
 
 A compliance Add-in for Microsoft Outlook to analyse sender lists for recipients outside your organization.
 

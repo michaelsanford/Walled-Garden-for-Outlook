@@ -8,7 +8,7 @@ using System.Security;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Walled Garden for Outlook")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A compliance Add-in for Microsoft Outlook to analyse sender lists for recipients outside your organization.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Walled Garden for Outlook")]
