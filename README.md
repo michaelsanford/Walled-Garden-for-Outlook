@@ -21,3 +21,7 @@ Answering `Yes` will release the message.
 ## Contributing
 
 I welcome contributions and bug reports; please file an issue.
+
+### Attributions
+
+Add-in icon courtesy [bitfreak86](https://www.iconfinder.com/bitfreak86)
