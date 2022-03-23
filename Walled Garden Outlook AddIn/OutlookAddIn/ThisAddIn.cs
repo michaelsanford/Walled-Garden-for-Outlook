@@ -1,6 +1,6 @@
-﻿using System;
+﻿using Microsoft.Office.Interop.Outlook;
+using System;
 using System.Windows.Forms;
-using Recipient = Microsoft.Office.Interop.Outlook.Recipient;
 using Outlook = Microsoft.Office.Interop.Outlook;
 
 namespace OutlookAddIn
