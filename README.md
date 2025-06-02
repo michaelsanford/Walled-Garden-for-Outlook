@@ -21,7 +21,7 @@ Answering `Yes` will release the message.
 3. Run `setup.exe`
 4. Restart Outlook to load the Add-in
 
-## Troublehooting
+## Troubleshooting
 
 1. Open Outlook
 2. Ensure there is no yellow warning under `Slow and Disabled COM Add-ins`. You can re-enable it there.
