@@ -8,7 +8,7 @@ The Add-In will extract the sender's (`From: `) organization domain to match it 
 
 When the email is Sent, all Recipients - in `To: `, `CC: ` and `BCC: ` - will be matched against the sender's domain.
 
-Any recipient whose domain does not match the sender's will trigger a popup, listing each "outsider" recipient and confirming if the messgae should be send anyway.
+Any recipient whose domain does not match the sender's will trigger a popup, listing each "outsider" recipient and confirming if the message should be sent anyway.
 
 Answering `No` will return to the compose window.
 
