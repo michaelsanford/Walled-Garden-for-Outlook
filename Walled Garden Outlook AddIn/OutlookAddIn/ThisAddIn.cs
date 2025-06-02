@@ -21,10 +21,16 @@ namespace OutlookAddIn
 
         void OutlookApplication_ItemSend(object Item, ref bool Cancel)
         {
-            String Domain = "@" + this.mailItem.SendUsingAccount.SmtpAddress.Split('@')[1];
+            Outlook.MailItem mailItem = Item as Outlook.MailItem;
+            if (mailItem == null)
+            {
+                return;
+            }
+
+            String Domain = "@" + mailItem.SendUsingAccount.SmtpAddress.Split('@')[1];
             String Outsiders = "";
 
-            foreach (Recipient recipient in this.mailItem.Recipients)
+            foreach (Recipient recipient in mailItem.Recipients)
             {
                 if (recipient.Address.Contains("@") && !recipient.Address.EndsWith(Domain))
                 {
